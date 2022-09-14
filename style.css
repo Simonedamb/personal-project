@@ -13,6 +13,14 @@ p {
   font-size: 1rem;
 }
 
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
 #header-container {
   display: flex;
   justify-content: space-between;
@@ -64,8 +72,24 @@ p {
     background: red;
   }
 
+  p {
+    color: white;
+  }
+
   .first-title {
     color: white;
     text-align: inherit;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p:hover,
+  h1:hover,
+  a:hover {
+    background-color: orange;
   }
 }
